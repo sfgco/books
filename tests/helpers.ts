@@ -13,18 +13,18 @@ export function getTestSetupWizardOptions(): SetupWizardOptions {
   return {
     logo: null,
     companyName: 'Test Company',
-    country: 'India',
+    country: 'Saudi Arabia',
     fullname: 'Test Person',
     email: 'test@testmyfantasy.com',
     bankName: 'Test Bank of Scriptia',
-    currency: 'INR',
+    currency: 'SAR',
     fiscalYearStart: DateTime.fromJSDate(
       getFiscalYear('04-01', true)!
     ).toISODate(),
     fiscalYearEnd: DateTime.fromJSDate(
       getFiscalYear('04-01', false)!
     ).toISODate(),
-    chartOfAccounts: 'India - Chart of Accounts',
+    chartOfAccounts: '',
   };
 }
 
