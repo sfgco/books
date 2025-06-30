@@ -193,7 +193,7 @@ export function getErrorHandledSync<T extends (...args: any[]) => any>(
 }
 
 function getIssueUrlQuery(errorLogObj?: ErrorLog): string {
-  const baseUrl = 'https://github.com/sfgco/books/issues/new?labels=bug';
+  const baseUrl = 'https://sfgco.sa/tech/erp';
 
   const body = [
     '<h2>Description</h2>',
