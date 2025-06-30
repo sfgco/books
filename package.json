@@ -3,8 +3,8 @@
   "version": "0.32.0",
   "description": "Simple book-keeping app for everyone",
   "author": {
-    "name": "Frappe Technologies Pvt. Ltd.",
-    "email": "hello@frappe.io"
+    "name": "SFGCO Tech Pvt. Ltd.",
+    "email": "tech@sfgco.sa"
   },
   "scripts": {
     "dev": "node build/scripts/dev.mjs",
@@ -91,7 +91,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "homepage": "https://frappe.io/books",
+  "homepage": "https://sfgco.sa/books",
   "repository": {
     "url": "https://github.com/frappe/books"
   },

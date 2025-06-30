@@ -23,7 +23,7 @@ import registerIpcMainMessageListeners from './main/registerIpcMainMessageListen
 import registerProcessListeners from './main/registerProcessListeners';
 
 export class Main {
-  title = 'Frappe Books';
+  title = 'Green Bar By SFGCO';
   icon: string;
 
   winURL = '';

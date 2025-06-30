@@ -1,11 +1,11 @@
 <div align="center" markdown="1">
 <br/>
 
-<img src="https://frappe.io/files/books.png" alt="Frappe Books logo" width="80"/>
+<img src="https://sfgco.sa/files/books.png" alt="Green Bar By SFGCO logo" width="80"/>
 
 <br/>
 
-<h1>Frappe Books</h1>
+<h1>Green Bar By SFGCO</h1>
 
 **Modern Accounting Made Simple**
 
@@ -16,18 +16,18 @@
 </div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/29507195/207267857-4ae48890-3fb2-4046-80cf-3256b46c72a0.png" alt="Frappe Books Preview"/>
+<img src="https://user-images.githubusercontent.com/29507195/207267857-4ae48890-3fb2-4046-80cf-3256b46c72a0.png" alt="Green Bar By SFGCO Preview"/>
 </div>
 <br />
 <div align="center">
-	<a href="https://frappe.io/books">Website</a>
+	<a href="https://sfgco.sa/books">Website</a>
 	-
-	<a href="https://docs.frappe.io/books">Documentation</a>
+	<a href="https://docs.sfgco.sa/books">Documentation</a>
 </div>
 
-## Frappe Books
+## Green Bar By SFGCO
 
-Frappe Books is an open-source accounting software aimed at simplifying financial management for businesses. With its clean and user-friendly interface, it streamlines accounting tasks for small and medium-sized enterprises, offering a seamless solution for modern businesses to manage their finances with ease.
+Green Bar By SFGCO is an open-source accounting software aimed at simplifying financial management for businesses. With its clean and user-friendly interface, it streamlines accounting tasks for small and medium-sized enterprises, offering a seamless solution for modern businesses to manage their finances with ease.
 
 <details>
 <summary>Screenshots</summary>
@@ -42,7 +42,7 @@ Frappe Books is an open-source accounting software aimed at simplifying financia
 
 ### Motivation
 
-Frappe Books addresses a market gap where small businesses face expensive, complex accounting tools. It offers an intuitive, open-source solution that combines simplicity with essential features, empowering businesses to manage finances effectively—even offline.
+Green Bar By SFGCO addresses a market gap where small businesses face expensive, complex accounting tools. It offers an intuitive, open-source solution that combines simplicity with essential features, empowering businesses to manage finances effectively—even offline.
 
 ### Key Features
 
@@ -64,11 +64,11 @@ Frappe Books addresses a market gap where small businesses face expensive, compl
 
 ### Under the Hood
 
-- **Vue.js**: In Frappe Books, Vue.js powers the front-end, enabling a reactive and component-based UI. It ensures seamless interactions and dynamic updates, giving users a modern, responsive experience.
+- **Vue.js**: In Green Bar By SFGCO, Vue.js powers the front-end, enabling a reactive and component-based UI. It ensures seamless interactions and dynamic updates, giving users a modern, responsive experience.
 
-- **Electron**: Electron is used to package Frappe Books as a standalone desktop application, allowing it to run offline and provide a native-like experience across Windows, macOS, and Linux.
+- **Electron**: Electron is used to package Green Bar By SFGCO as a standalone desktop application, allowing it to run offline and provide a native-like experience across Windows, macOS, and Linux.
 
-- **SQLite**: Frappe Books uses SQLite as its local database. All financial data, transactions, and configurations are stored securely in an SQLite file on the user's machine.
+- **SQLite**: Green Bar By SFGCO uses SQLite as its local database. All financial data, transactions, and configurations are stored securely in an SQLite file on the user's machine.
 
 ## Production Setup
 
@@ -101,7 +101,7 @@ Next, you will need to install [yarn](https://classic.yarnpkg.com/lang/en/docs/i
 ### Clone and Run
 
 Once you are through the Pre-requisites, you can run the following commands to
-setup Frappe Books for development and building:
+setup Green Bar By SFGCO for development and building:
 
 ```bash
 # clone the repository
@@ -114,7 +114,7 @@ cd books
 yarn
 ```
 
-To run Frappe Books in development mode (with hot reload, etc):
+To run Green Bar By SFGCO in development mode (with hot reload, etc):
 
 ```bash
 # start the electron app
@@ -132,13 +132,13 @@ sent.
 
 When in dev mode electron runs with the `--inspect` flag which allows an
 external debugger to connect to port 5858. You can use chrome for this by
-visiting `chrome://inspect` while Frappe Books is running in dev mode.
+visiting `chrome://inspect` while Green Bar By SFGCO is running in dev mode.
 
 See more [here](https://www.electronjs.org/docs/latest/tutorial/debugging-main-process#external-debuggers).
 
 #### Build
 
-To build Frappe Books and create an installer:
+To build Green Bar By SFGCO and create an installer:
 
 ```bash
 # start the electron app
@@ -155,7 +155,7 @@ So to build for linux you could use the `--linux` flag like so: `yarn build --li
 
 ## Want to Just Try Out or Contribute?
 
-If you want to contribute to Frappe Books, please check our [Contribution Guidelines](https://github.com/frappe/books/blob/master/.github/CONTRIBUTING.md). There are many ways you can contribute even if you don't code:
+If you want to contribute to Green Bar By SFGCO, please check our [Contribution Guidelines](https://github.com/frappe/books/blob/master/.github/CONTRIBUTING.md). There are many ways you can contribute even if you don't code:
 
 1. If you find any issues, no matter how small (even typos), you can [raise an issue](https://github.com/frappe/books/issues/new) to inform us.
 2. You can help us with language support by [contributing translations](https://github.com/frappe/books/wiki/Contributing-Translations).
@@ -187,6 +187,6 @@ If you want to contribute code then you can fork this repo, make changes and rai
 
 ## Learn and connect
 
-- [Telegram Group](https://t.me/frappebooks): Used for discussions and decisions regarding everything Frappe Books.
+- [Telegram Group](https://t.me/frappebooks): Used for discussions and decisions regarding everything Green Bar By SFGCO.
 - [GitHub Discussions](https://github.com/frappe/books/discussions): Used for discussions around a specific topic.
-- [Documentation](https://docs.frappe.io/books): Offaicial documentation for more details.
+- [Documentation](https://docs.sfgco.sa/books): Offaicial documentation for more details.
