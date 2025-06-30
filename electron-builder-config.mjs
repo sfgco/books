@@ -16,7 +16,7 @@ const packageDirPath = path.join(root, 'dist_electron', 'bundled');
 
 const frappeBooksConfig = {
   productName: 'Green Bar By SFGCO',
-  appId: 'io.frappe.books',
+  appId: 'io.sfgco.greenbar',
   asarUnpack: '**/*.node',
   extraResources: [
     { from: 'log_creds.txt', to: '../creds/log_creds.txt' },

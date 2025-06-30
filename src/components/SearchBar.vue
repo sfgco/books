@@ -355,7 +355,7 @@ export default defineComponent({
   },
   methods: {
     openDocs() {
-      ipc.openLink('https://docs.sfgco.sa/' + docsPathMap.Search);
+      ipc.openLink('https://sfgco.sa/tech/' + docsPathMap.Search);
     },
     getShortcuts() {
       const ifOpen = (cb: Function) => () => this.openModal && cb();

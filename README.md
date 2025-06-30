@@ -9,9 +9,9 @@
 
 **Modern Accounting Made Simple**
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/frappe/books)](https://github.com/frappe/books/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/frappe/books)](https://github.com/sfgco/books/releases)
 ![Platforms](https://img.shields.io/badge/platform-mac%2C%20windows%2C%20linux-yellowgreen)
-[![Publish](https://github.com/frappe/books/actions/workflows/publish.yml/badge.svg)](https://github.com/frappe/books/actions/workflows/publish.yml)
+[![Publish](https://github.com/sfgco/books/actions/workflows/publish.yml/badge.svg)](https://github.com/sfgco/books/actions/workflows/publish.yml)
 
 </div>
 
@@ -22,7 +22,7 @@
 <div align="center">
 	<a href="https://sfgco.sa/books">Website</a>
 	-
-	<a href="https://docs.sfgco.sa/books">Documentation</a>
+	<a href="https://sfgco.sa/tech/books">Documentation</a>
 </div>
 
 ## Green Bar By SFGCO
@@ -75,7 +75,7 @@ Green Bar By SFGCO addresses a market gap where small businesses face expensive,
 ### Manual
 
 Download and install the latest release for your platform from the [releases
-page](https://github.com/frappe/books/releases) .
+page](https://github.com/sfgco/books/releases) .
 
 ### Using Homebrew (for MacOS and Linux)
 
@@ -85,7 +85,7 @@ brew install --cask frappe-books
 
 ### Via Flatpak (Linux)
 
-<a href='https://flathub.org/apps/io.frappe.books'>
+<a href='https://flathub.org/apps/io.sfgco.greenbar'>
     <img width='120' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/>
 </a>
 
@@ -105,7 +105,7 @@ setup Green Bar By SFGCO for development and building:
 
 ```bash
 # clone the repository
-git clone https://github.com/frappe/books.git
+git clone https://github.com/sfgco/books.git
 
 # change directory
 cd books
@@ -155,10 +155,10 @@ So to build for linux you could use the `--linux` flag like so: `yarn build --li
 
 ## Want to Just Try Out or Contribute?
 
-If you want to contribute to Green Bar By SFGCO, please check our [Contribution Guidelines](https://github.com/frappe/books/blob/master/.github/CONTRIBUTING.md). There are many ways you can contribute even if you don't code:
+If you want to contribute to Green Bar By SFGCO, please check our [Contribution Guidelines](https://github.com/sfgco/books/blob/master/.github/CONTRIBUTING.md). There are many ways you can contribute even if you don't code:
 
-1. If you find any issues, no matter how small (even typos), you can [raise an issue](https://github.com/frappe/books/issues/new) to inform us.
-2. You can help us with language support by [contributing translations](https://github.com/frappe/books/wiki/Contributing-Translations).
+1. If you find any issues, no matter how small (even typos), you can [raise an issue](https://github.com/sfgco/books/issues/new) to inform us.
+2. You can help us with language support by [contributing translations](https://github.com/sfgco/books/wiki/Contributing-Translations).
 3. If you're an ardent user you can tell us what you would like to see.
 4. If you have accounting requirements, you can become an ardent user. 🙂
 
@@ -188,5 +188,5 @@ If you want to contribute code then you can fork this repo, make changes and rai
 ## Learn and connect
 
 - [Telegram Group](https://t.me/frappebooks): Used for discussions and decisions regarding everything Green Bar By SFGCO.
-- [GitHub Discussions](https://github.com/frappe/books/discussions): Used for discussions around a specific topic.
-- [Documentation](https://docs.sfgco.sa/books): Offaicial documentation for more details.
+- [GitHub Discussions](https://github.com/sfgco/books/discussions): Used for discussions around a specific topic.
+- [Documentation](https://sfgco.sa/tech/books): Offaicial documentation for more details.

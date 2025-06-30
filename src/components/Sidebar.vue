@@ -292,7 +292,7 @@ export default defineComponent({
     reportIssue,
     toggleSidebar,
     openDocumentation() {
-      ipc.openLink('https://docs.sfgco.sa/' + docsPathRef.value);
+      ipc.openLink('https://sfgco.sa/tech/' + docsPathRef.value);
     },
     setActiveGroup() {
       const { fullPath } = this.$router.currentRoute.value;

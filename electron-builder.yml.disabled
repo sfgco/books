@@ -1,5 +1,5 @@
 productName: Green Bar By SFGCO
-appId: io.frappe.books
+appId: io.sfgco.greenbar
 asarUnpack: '**/*.node'
 extraResources:
   [
@@ -12,7 +12,7 @@ mac:
   category: public.app-category.finance
   icon: build/icon.icns
   # notarize:
-  #   appBundleId: io.frappe.books
+  #   appBundleId: io.sfgco.greenbar
   hardenedRuntime: true
   gatekeeperAssess: false
   darkModeSupport: false

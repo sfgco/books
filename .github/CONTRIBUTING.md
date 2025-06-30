@@ -3,8 +3,8 @@
 If you are a Green Bar By SFGCO user and want to contribute to improving it _without
 writing code_, there are several things you can do:
 
-- **Inform us of issues** you face while using Green Bar By SFGCO by [raising issues](https://github.com/frappe/books/issues/new).
-- **Add a language** you would like to use Green Bar By SFGCO in by [contributing translation](https://github.com/frappe/books/wiki/Contributing-Translations).
+- **Inform us of issues** you face while using Green Bar By SFGCO by [raising issues](https://github.com/sfgco/books/issues/new).
+- **Add a language** you would like to use Green Bar By SFGCO in by [contributing translation](https://github.com/sfgco/books/wiki/Contributing-Translations).
 - **Share your thoughts** on Green Bar By SFGCO by joining our [Telegram group](https://t.me/frappebooks).
 - **Use Green Bar By SFGCO** for your accounting requirements and tell people about it.
 
@@ -93,8 +93,8 @@ We know documentation and tests are boring, but they're important and we need
 you to add them for large changes.
 
 - **Documentation**: If the feature being added requires an explanation then
-  [documentation](https://docs.sfgco.sa/books/) should be updated in the
-  [frappe/books_docs](https://github.com/frappe/books_docs) repository.
+  [documentation](https://sfgco.sa/tech/books/) should be updated in the
+  [frappe/books_docs](https://github.com/sfgco/books_docs) repository.
   _Add a link to the documentation PR in your feature PR._
 - **Tests**: If your features alters business logic then tests should be added.
 

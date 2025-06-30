@@ -93,7 +93,7 @@
   },
   "homepage": "https://sfgco.sa/books",
   "repository": {
-    "url": "https://github.com/frappe/books"
+    "url": "https://github.com/sfgco/books"
   },
   "license": "AGPL-3.0-only"
 }
