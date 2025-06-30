@@ -192,7 +192,6 @@ export function getCreateCustomerAction(fyo: Fyo): Action {
     condition: (doc: Doc) => !doc.notInserted,
     action: async (doc: Doc, router) => {
       const customerData = (doc as Lead).createCustomer();
-
       if (!customerData.name) {
         return;
       }

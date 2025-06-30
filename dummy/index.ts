@@ -39,8 +39,8 @@ export async function setupDummyInstance(
     email: 'tech@sfgco.sa',
     bankName: 'Inmaa Bank',
     currency: 'SAR',
-    fiscalYearStart: getFiscalYear('04-01', true)!.toISOString(),
-    fiscalYearEnd: getFiscalYear('04-01', false)!.toISOString(),
+    fiscalYearStart: getFiscalYear('07-01', true)!.toISOString(),
+    fiscalYearEnd: getFiscalYear('07-01', false)!.toISOString(),
     chartOfAccounts: 'U.A.E - Chart of Accounts',
   };
   await setupInstance(dbPath, options, fyo);
@@ -66,19 +66,19 @@ async function setOtherSettings(fyo: Fyo) {
   const doc = await fyo.doc.getDoc(ModelNameEnum.PrintSettings);
   const address = fyo.doc.getNewDoc(ModelNameEnum.Address);
   await address.setAndSync({
-    addressLine1: '1st Column, Fitzgerald Bridge',
-    city: 'Pune',
-    state: 'Maharashtra',
-    pos: 'Maharashtra',
+    addressLine1: '1st Makah, Yrmouk Strret',
+    city: 'Khobar',
+    state: 'Eastern Province',
+    pos: 'Khobar',
     postalCode: '411001',
-    country: 'India',
+    country: 'Saudi Arabia',
   });
 
   await doc.setAndSync({
     color: '#F687B3',
     template: 'Business',
     displayLogo: true,
-    phone: '+91 8983-000418',
+    phone: '+966 555-930749',
     logo,
     address: address.name,
   });
